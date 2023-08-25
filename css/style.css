@@ -190,7 +190,7 @@
 /**************************/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0;
 }
 
 .step-number {
@@ -207,7 +207,6 @@
 
 .step-img-box {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,7 +224,7 @@
 }
 
 .step-img {
-  width: 60%;
+  width: 100%;
   /* z-index: 10; */
 }
 
@@ -234,7 +233,7 @@
 /**************************/
 
 .section-meals {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0;
 }
 
 .meal {
@@ -296,7 +295,7 @@
 .meal-attribute {
   font-size: 1.8rem;
   line-height: 1.5;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 1.6rem;
 }
@@ -381,7 +380,7 @@
 /**************************/
 
 .section-pricing {
-  padding: 9.6rem 0;
+  padding: 0;
 }
 
 .pricing-plan {
@@ -493,7 +492,7 @@
   /* padding: 9.6rem 0 12.8rem 0; */
 
   /* top / horizontal / left */
-  padding: 4.8rem 0 12.8rem;
+  padding: 4.8rem 0 4.8rem;
 }
 
 .cta {
@@ -577,12 +576,12 @@
 /**************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 4.8rem 0;
   border-top: 1px solid #eee;
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0;
 }
 
 .logo-col {
